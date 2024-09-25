@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+:root {
+    --White: hsl(0, 0%, 100%);
+
+    --Stone-one: hsl(30, 54%, 90%);
+    --Stone-two: hsl(30, 18%, 87%);
+    --Stone-three: hsl(30, 10%, 34%);
+    --Stone-four: hsl(24, 5%, 18%);
+
+    --Brown: hsl(14, 45%, 36%);
+
+    --Rose-one: hsl(332, 51%, 32%);
+    --Rose-two: hsl(330, 100%, 98%);
+font-family: "Outfit", sans-serif;
+font-size: 16px;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    background-color:var(--Stone-one);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:var(--Stone-three);
+}
+main {
+    background-color:var(--White);
+    width: 100%;
+    max-width: 720px;
+    margin: 6.25rem;
+    border-radius: 1.56rem;
+    padding: 2.5rem;
+    
+}
+
+
+img { 
+    width: 100%;
+    border-radius: 1.56rem;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+
+
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-block-start: 1.63rem;
+    margin-block-end: 1.63rem;
+}
+h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-block-end: 1.63rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+
+h1 {
+    color:var(--Stone-four);
+    font-size: 2.5rem;
+}
+h2 {
+    color:var(--Brown-);
+}
+h3 {
+    color:var(--Rose-one);
+}
+
+
+ul{
+    padding-inline-start: 1.56rem;
+}
+ul li {
+    padding: 0.62rem;
+
+}
+
+#preparation {
+    margin: 1.88rem;
+    background-color: var(--Rose-two);
+    padding: 1.88rem; 
+    border-radius: 1.56rem;
+    
+
+}
+
+#preparation ::marker{
+    color:var(--Stone-four);
+}
+::marker {
+    color:var(--Rose-one);
+}
+ol {
+    padding-inline-start: 1.5rem;
+}
+ol li{
+    padding-left: 1.25rem;
+    padding-bottom: 0.94rem;
+}
+ol ::marker{
+    font-weight: bold;
+}
+td, th {
+    text-align: left;
+    border-bottom: 1px solid var(--Stone-two);
+}
+hr {
+    height: 1px;
+    border-style: none;
+    background-color: var(--Stone-two);
+    margin-top:  1.25rem;
+    margin-bottom: 1.56rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    width: 300px;
+    padding-bottom: 0.81rem;
+    padding-left: 3rem;
+    padding-top: 0.81rem;
+}
+th {
+    color: var(--Brown);
+}
+.none{
+    border-style: none;
+}
+
+@media screen and (max-width: 400px){
+img { 
+    width: 100%;
+    border-radius: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+div {
+    padding: 1.9rem;
+    margin: 0; 
+
+}
+}
